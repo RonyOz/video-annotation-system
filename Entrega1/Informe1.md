@@ -33,9 +33,7 @@ Se seguirá la metodología CRISP-DM, enfocada en la robustez de los datos.
 
 A continuación se presenta el flujo general del sistema propuesto para la anotación y clasificación de actividades motoras usando MediaPipe y modelos de ML supervisados:
 
-![Arquitectura del Sistema](../Arquitectura.svg)
-
-- **Video en Tiempo Real** → **MediaPipe: Estimación de Pose** → **Extracción de Coordenadas 2D** → **Preprocesamiento** → **Ingeniería de Características** → **Modelo ML Supervisado** → **Salida: Clase de Actividad HAR** → **Interfaz Gráfica / Reporte**
+<img src="../Arquitectura.svg" alt="Arquitectura del Sistema" width="600" height="1000">
 
 Este diagrama resume las etapas principales desde la captura hasta la visualización de resultados.
 
