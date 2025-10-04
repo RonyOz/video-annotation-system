@@ -2,8 +2,9 @@
 ## Asignatura: Algoritmos y Programación III (APO3)
 ### Universidad ICESI, Semestre: 2025-2
 
-**Grupo No.:** `<Número de Grupo>`
-**Integrantes:** `Sebastian Erazo Ochoa | A00`
+**Grupo No.3** 
+
+**Integrantes:** `Sebastian Erazo Ochoa | A00400086`
 `Gabriel Ernesto Escobar Bravo | A00399291`
 `Rony Farid Ordoñez García | A00397968`
 <!-- **Enlace al Repositorio (GitHub):** `<URL del Repositorio>` -->
