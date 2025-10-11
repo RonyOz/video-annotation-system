@@ -27,14 +27,17 @@ El núcleo es un problema de **Clasificación Multiclase Supervisada** (Activity
 
 ## 2. Metodología y Métricas
 
-### Metodología de Trabajo: CRISP-DM Adaptada
-Se seguirá la metodología CRISP-DM, enfocada en la robustez de los datos.
+### Metodología de Trabajo: CRISP-DM
+Se seguirá la metodología CRISP-DM (Cross-Industry Standard Process for Data Mining) en su totalidad, la cual consta de 6 fases iterativas:
 
 | Fase | Tareas Principales para el Primer Entregable |
 | :--- | :--- |
-| **Comprensión del Negocio** | Definición de las 5 clases de actividad y articulaciones clave. |
-| **Comprensión de los Datos** | Diseño del protocolo de captura de video (perspectivas, velocidad). |
-| **Preparación de los Datos** | Selección de herramientas de anotación (LabelStudio/CVAT). Plan de Normalización y Filtrado de *landmarks*. |
+| **1. Comprensión del Negocio** | Definición de las 5 clases de actividad y articulaciones clave. Establecimiento de objetivos del proyecto y criterios de éxito. |
+| **2. Comprensión de los Datos** | Diseño del protocolo de captura de video (perspectivas, velocidad). Recolección inicial de datos y análisis exploratorio. |
+| **3. Preparación de los Datos** | Selección de herramientas de anotación (LabelStudio/CVAT). Plan de Normalización y Filtrado de *landmarks*. Limpieza y transformación de datos. |
+| **4. Modelado** | Selección de algoritmos de clasificación (SVM, Random Forest, XGBoost). Diseño de características cinemáticas. Entrenamiento y validación de modelos. |
+| **5. Evaluación** | Validación de modelos con métricas de clasificación (Precision, Recall, F1-Score). Análisis de importancia de características. Verificación del cumplimiento de objetivos. |
+| **6. Despliegue** | Integración del sistema de anotación en tiempo real. Documentación técnica y plan de mantenimiento. Consideraciones para uso en contexto clínico/investigación. |
 
 ### Métricas de Desempeño
 Para medir el progreso y el resultado final, se usarán las métricas de clasificación:
