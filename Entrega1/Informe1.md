@@ -30,14 +30,6 @@ El núcleo es un problema de **Clasificación Multiclase Supervisada** (Activity
 ### Metodología de Trabajo: CRISP-DM Adaptada
 Se seguirá la metodología CRISP-DM, enfocada en la robustez de los datos.
 
-#### Diagrama de Arquitectura del Sistema
-
-A continuación se presenta el flujo general del sistema propuesto para la anotación y clasificación de actividades motoras usando MediaPipe y modelos de ML supervisados:
-
-<img src="../Arquitectura.svg" alt="Arquitectura del Sistema" width="600" height="1000">
-
-Este diagrama resume las etapas principales desde la captura hasta la visualización de resultados.
-
 | Fase | Tareas Principales para el Primer Entregable |
 | :--- | :--- |
 | **Comprensión del Negocio** | Definición de las 5 clases de actividad y articulaciones clave. |
