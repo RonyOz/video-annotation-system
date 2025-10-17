@@ -51,7 +51,7 @@ Para medir el progreso y el resultado final, se usarán las métricas de clasifi
 
 ### Datos Recolectados Iniciales
 * **Recolección:** Videos capturados por cámara web/móvil.
-* **Volumen Inicial:** `<Indicar número>` videos; `<Número de personas>` personas; `<Número de repeticiones>` repeticiones por actividad.
+* **Volumen Inicial:** `<Indicar número>`videos; `<Número de personas>` personas; `<Número de repeticiones>` repeticiones por actividad.
 * **Herramientas:** Uso de **MediaPipe** para extracción de *landmarks* (Cadera, rodillas, tobillos, muñecas, hombros, cabeza).
 * **Anotación:** Etiquetado manual de inicio/fin de cada segmento de actividad clave mediante LabelStudio/CVAT.
 
@@ -59,6 +59,43 @@ Para medir el progreso y el resultado final, se usarán las métricas de clasifi
 1.  **Visualización de Trayectorias:** Gráfico de dispersión de las coordenadas $(x, y)$ de una articulación (ej., rodilla) a lo largo del tiempo para una sola repetición de cada actividad, para visualizar el patrón de movimiento.
 2.  **Identificación de Ruido:** Análisis de la varianza en la señal de las coordenadas $(x, y)$ para confirmar la necesidad de **filtrado suave**.
 3.  **Inspección de Normalización:** Visualización de las coordenadas antes y después de la estandarización para verificar la independencia del sujeto/distancia.
+
+## 3.1. Guía para Agregar Labels a los Videos con Label Studio
+
+Para realizar el proceso de etiquetado de las actividades motoras, utilizamos la herramienta Label Studio, que permite definir etiquetas personalizadas y asignarlas a segmentos específicos dentro de los videos. A continuación se describe paso a paso cómo se configuró y empleó esta herramienta.
+
+Primero, instalamos Label Studio dentro del entorno virtual del proyecto. Para ello, activamos el entorno (.venv) desde PowerShell y ejecutamos el comando `pip install label-studio`.
+Una vez instalado, iniciamos la aplicación con `label-studio start`, lo que abre una interfaz web en la dirección http://localhost:8080
+.
+
+Después, creamos un nuevo proyecto en la interfaz de Label Studio. Le asignamos un nombre descriptivo —por ejemplo, Anotación de Actividades Motoras— y seleccionamos el tipo de tarea correspondiente a video. En el apartado de configuración de etiquetado (Labeling Setup), abrimos la opción “Code View” para editar directamente la plantilla y reemplazamos su contenido por el siguiente fragmento, que define las etiquetas necesarias para el proyecto:
+```xml
+<View>
+  <TimelineLabels name="videoLabels" toName="video">
+    <Label value="sentado" background="#D4380D"/>
+    <Label value="sentandose" background="#FFC069"/>
+    <Label value="parado" background="#AD8B00"/>
+    <Label value="caminando adelante" background="#D3F261"/>
+    <Label value="caminado atras" background="#389E0D"/>
+    <Label value="girando" background="#5CDBD3"/>
+    <Label value="parandose" background="#FFA39E"/>
+  </TimelineLabels>
+  <Video name="video" value="$video" timelineHeight="120"/>
+</View>
+```
+
+
+
+Con esta configuración guardada, procedimos a importar los videos a través de la pestaña Tasks → Import, cargando los archivos de video en formato .mp4, .mov o .avi.
+Cada video se agregó como una tarea independiente lista para ser anotada.
+
+Durante el proceso de etiquetado, reproducimos cada video dentro de Label Studio y usamos la línea de tiempo inferior para marcar los intervalos de inicio y fin de cada actividad. A cada segmento le asignamos una de las etiquetas definidas anteriormente: sentado, sentándose, parado, caminando adelante, caminando atrás, girando o parándose.
+Esta etapa fue clave para delimitar con precisión los momentos donde ocurren los cambios posturales o de movimiento. Para lograr mayor exactitud, aprovechamos las herramientas de zoom y navegación cuadro a cuadro que ofrece la interfaz.
+
+![alt text](Images/Estados.png)
+
+Finalmente, una vez completadas las anotaciones de todos los videos, exportamos los resultados en formato JSON desde la pestaña Export del proyecto.
+Este archivo contiene las marcas de tiempo y las etiquetas asociadas a cada actividad, y servirá posteriormente como insumo para el procesamiento con MediaPipe y el análisis de características cinemáticas en la siguiente fase del proyecto.
 
 ---
 
