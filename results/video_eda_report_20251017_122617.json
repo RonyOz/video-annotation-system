@@ -1,0 +1,157 @@
+{
+    "fecha_analisis": "2025-10-17 12:26:17",
+    "directorio": "/Users/gab27x/Documents/s7/apo3/video-annotation-system/data",
+    "total_videos": 18,
+    "tamaño_total_mb": 39.78,
+    "tamaño_total_gb": 0.04,
+    "tamaño_promedio_mb": 2.21,
+    "formatos": {
+        ".mp4": 18
+    },
+    "videos": [
+        {
+            "nombre": "Video 12.mp4",
+            "ruta": "../data/Video 12.mp4",
+            "tamaño_mb": 3.36,
+            "fecha_creacion": "2025-10-17 12:13:06",
+            "fecha_modificacion": "2025-10-17 17:11:00",
+            "extension": ".mp4"
+        },
+        {
+            "nombre": "Video 13.mp4",
+            "ruta": "../data/Video 13.mp4",
+            "tamaño_mb": 1.9,
+            "fecha_creacion": "2025-10-17 12:13:06",
+            "fecha_modificacion": "2025-10-17 17:11:00",
+            "extension": ".mp4"
+        },
+        {
+            "nombre": "Video 11.mp4",
+            "ruta": "../data/Video 11.mp4",
+            "tamaño_mb": 2.74,
+            "fecha_creacion": "2025-10-17 12:13:06",
+            "fecha_modificacion": "2025-10-17 17:11:00",
+            "extension": ".mp4"
+        },
+        {
+            "nombre": "Video 10.mp4",
+            "ruta": "../data/Video 10.mp4",
+            "tamaño_mb": 1.9,
+            "fecha_creacion": "2025-10-17 12:13:06",
+            "fecha_modificacion": "2025-10-17 17:11:00",
+            "extension": ".mp4"
+        },
+        {
+            "nombre": "Video 14.mp4",
+            "ruta": "../data/Video 14.mp4",
+            "tamaño_mb": 2.23,
+            "fecha_creacion": "2025-10-17 12:13:06",
+            "fecha_modificacion": "2025-10-17 17:11:00",
+            "extension": ".mp4"
+        },
+        {
+            "nombre": "Video 15.mp4",
+            "ruta": "../data/Video 15.mp4",
+            "tamaño_mb": 2.15,
+            "fecha_creacion": "2025-10-17 12:13:06",
+            "fecha_modificacion": "2025-10-17 17:11:00",
+            "extension": ".mp4"
+        },
+        {
+            "nombre": "Video 17.mp4",
+            "ruta": "../data/Video 17.mp4",
+            "tamaño_mb": 2.2,
+            "fecha_creacion": "2025-10-17 12:13:06",
+            "fecha_modificacion": "2025-10-17 17:11:00",
+            "extension": ".mp4"
+        },
+        {
+            "nombre": "Video 16.mp4",
+            "ruta": "../data/Video 16.mp4",
+            "tamaño_mb": 2.53,
+            "fecha_creacion": "2025-10-17 12:13:06",
+            "fecha_modificacion": "2025-10-17 17:11:00",
+            "extension": ".mp4"
+        },
+        {
+            "nombre": "Video 8.mp4",
+            "ruta": "../data/Video 8.mp4",
+            "tamaño_mb": 1.81,
+            "fecha_creacion": "2025-10-17 12:13:06",
+            "fecha_modificacion": "2025-10-17 17:11:00",
+            "extension": ".mp4"
+        },
+        {
+            "nombre": "Video 9.mp4",
+            "ruta": "../data/Video 9.mp4",
+            "tamaño_mb": 2.06,
+            "fecha_creacion": "2025-10-17 12:13:06",
+            "fecha_modificacion": "2025-10-17 17:11:00",
+            "extension": ".mp4"
+        },
+        {
+            "nombre": "Video 1.mp4",
+            "ruta": "../data/Video 1.mp4",
+            "tamaño_mb": 2.06,
+            "fecha_creacion": "2025-10-17 12:13:06",
+            "fecha_modificacion": "2025-10-17 17:11:00",
+            "extension": ".mp4"
+        },
+        {
+            "nombre": "Video 2.mp4",
+            "ruta": "../data/Video 2.mp4",
+            "tamaño_mb": 2.31,
+            "fecha_creacion": "2025-10-17 12:13:06",
+            "fecha_modificacion": "2025-10-17 17:11:00",
+            "extension": ".mp4"
+        },
+        {
+            "nombre": "Video 3.mp4",
+            "ruta": "../data/Video 3.mp4",
+            "tamaño_mb": 1.69,
+            "fecha_creacion": "2025-10-17 12:13:06",
+            "fecha_modificacion": "2025-10-17 17:11:00",
+            "extension": ".mp4"
+        },
+        {
+            "nombre": "Video 7.mp4",
+            "ruta": "../data/Video 7.mp4",
+            "tamaño_mb": 2.38,
+            "fecha_creacion": "2025-10-17 12:13:06",
+            "fecha_modificacion": "2025-10-17 17:11:00",
+            "extension": ".mp4"
+        },
+        {
+            "nombre": "Video 6.mp4",
+            "ruta": "../data/Video 6.mp4",
+            "tamaño_mb": 1.91,
+            "fecha_creacion": "2025-10-17 12:13:06",
+            "fecha_modificacion": "2025-10-17 17:11:00",
+            "extension": ".mp4"
+        },
+        {
+            "nombre": "Video 4.mp4",
+            "ruta": "../data/Video 4.mp4",
+            "tamaño_mb": 2.25,
+            "fecha_creacion": "2025-10-17 12:13:06",
+            "fecha_modificacion": "2025-10-17 17:11:00",
+            "extension": ".mp4"
+        },
+        {
+            "nombre": "Video 5.mp4",
+            "ruta": "../data/Video 5.mp4",
+            "tamaño_mb": 2.32,
+            "fecha_creacion": "2025-10-17 12:13:06",
+            "fecha_modificacion": "2025-10-17 17:11:00",
+            "extension": ".mp4"
+        },
+        {
+            "nombre": "Video 18.mp4",
+            "ruta": "../data/Video 18.mp4",
+            "tamaño_mb": 1.98,
+            "fecha_creacion": "2025-10-17 12:13:06",
+            "fecha_modificacion": "2025-10-17 17:11:00",
+            "extension": ".mp4"
+        }
+    ]
+}

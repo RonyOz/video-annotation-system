@@ -4,9 +4,7 @@
 data/
 !data/.gitkeep
 
-# Resultados generados (se pueden recrear)
-results/
-!results/.gitkeep
+
 
 # Notebooks checkpoints
 .ipynb_checkpoints/
@@ -19,6 +17,7 @@ __pycache__/
 .Python
 env/
 venv/
+.venv/
 *.egg-info/
 dist/
 build/
