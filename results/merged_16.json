@@ -1,0 +1,4682 @@
+[
+  {
+    "id": 1,
+    "annotations": [
+      {
+        "id": 1,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 18,
+                  "end": 37
+                }
+              ],
+              "timelinelabels": [
+                "parandose"
+              ]
+            },
+            "id": "xt7iDFeTWr",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 18
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "LuK_-CTc_W",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 37,
+                  "end": 40
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "UesU9npYPk",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 40,
+                  "end": 119
+                }
+              ],
+              "timelinelabels": [
+                "caminando adelante"
+              ]
+            },
+            "id": "2jISB4ao6F",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 120,
+                  "end": 155
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "EGYv9WFXRp",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 155,
+                  "end": 208
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "dBn_Foi6gn",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 209,
+                  "end": 230
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "B7FP9Bd8uH",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 231,
+                  "end": 253
+                }
+              ],
+              "timelinelabels": [
+                "sentandose"
+              ]
+            },
+            "id": "Nnj9DkG2xx",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 254,
+                  "end": 282
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "tlBN-E-ykX",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-17T17:53:07.410235Z",
+        "updated_at": "2025-10-17T17:53:07.410249Z",
+        "draft_created_at": "2025-10-17T17:43:23.959047Z",
+        "lead_time": 604.732,
+        "prediction": {},
+        "result_count": 9,
+        "unique_id": "decc5528-d0ab-47d4-8e3d-d4e29ffc2fc9",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1,
+        "project": 1,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "a327f941-Video_1.mp4",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "video": "/data/upload/1/a327f941-Video_1.mp4"
+    },
+    "created_at": "2025-10-17T17:39:00.041737Z",
+    "updated_at": "2025-10-17T17:53:07.421656Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2,
+    "annotations": [
+      {
+        "id": 2,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 16
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "N1xYF0yTm1",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 17,
+                  "end": 41
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "JrRkSBQnr_",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 42,
+                  "end": 133
+                }
+              ],
+              "timelinelabels": [
+                "caminando adelante"
+              ]
+            },
+            "id": "-1qR5xX5M4",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 134,
+                  "end": 166
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "-NOLFVOH98",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 167,
+                  "end": 232
+                }
+              ],
+              "timelinelabels": [
+                "caminado atras"
+              ]
+            },
+            "id": "SZpzgHVoZ_",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 233,
+                  "end": 258
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "ndyjCO4oGV",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 259,
+                  "end": 269
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "oKl9c4BEhz",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 270,
+                  "end": 299
+                }
+              ],
+              "timelinelabels": [
+                "sentandose"
+              ]
+            },
+            "id": "2zvGI-bsuk",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 300,
+                  "end": 319
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "4oegoFqIP3",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 320,
+                  "end": 351
+                }
+              ],
+              "timelinelabels": [
+                "parandose"
+              ]
+            },
+            "id": "s680w_kZ8L",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-17T18:01:42.958155Z",
+        "updated_at": "2025-10-17T18:01:42.958167Z",
+        "draft_created_at": "2025-10-17T17:55:28.608003Z",
+        "lead_time": 393.566,
+        "prediction": {},
+        "result_count": 10,
+        "unique_id": "1747ee98-dbfc-4b33-aaa7-f908c5f41673",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2,
+        "project": 1,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "215b6404-Video_2.mp4",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "video": "/data/upload/1/215b6404-Video_2.mp4"
+    },
+    "created_at": "2025-10-17T17:39:00.041772Z",
+    "updated_at": "2025-10-17T18:01:42.970274Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 3,
+    "annotations": [
+      {
+        "id": 3,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 25
+                }
+              ],
+              "timelinelabels": [
+                "parandose"
+              ]
+            },
+            "id": "ZyVkQvvI_S",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 26,
+                  "end": 95
+                }
+              ],
+              "timelinelabels": [
+                "caminando adelante"
+              ]
+            },
+            "id": "TzM0KM553w",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 96,
+                  "end": 119
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "9dcjhqgz2Q",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 120,
+                  "end": 173
+                }
+              ],
+              "timelinelabels": [
+                "caminado atras"
+              ]
+            },
+            "id": "Mqb9nzGexm",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 174,
+                  "end": 195
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "Wt0AEn8k2T",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 196,
+                  "end": 203
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "FaM6saXBiu",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 204,
+                  "end": 225
+                }
+              ],
+              "timelinelabels": [
+                "sentandose"
+              ]
+            },
+            "id": "cY3hCzigIU",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 226,
+                  "end": 232
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "Sq0F03jWUi",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-17T18:05:20.768945Z",
+        "updated_at": "2025-10-17T18:05:20.768958Z",
+        "draft_created_at": "2025-10-17T18:02:30.813855Z",
+        "lead_time": 187.622,
+        "prediction": {},
+        "result_count": 8,
+        "unique_id": "e5f53a97-da74-4fc4-a004-b41ff0e0f705",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 3,
+        "project": 1,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "c8b980e0-Video_3.mp4",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "video": "/data/upload/1/c8b980e0-Video_3.mp4"
+    },
+    "created_at": "2025-10-17T17:39:00.041792Z",
+    "updated_at": "2025-10-17T18:05:20.779646Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 4,
+    "annotations": [
+      {
+        "id": 4,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 6
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "-LOyqm3W_u",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 7,
+                  "end": 30
+                }
+              ],
+              "timelinelabels": [
+                "parandose"
+              ]
+            },
+            "id": "nrmO8tGCYM",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 31,
+                  "end": 35
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "xMMlKauaN_",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 36,
+                  "end": 127
+                }
+              ],
+              "timelinelabels": [
+                "caminando adelante"
+              ]
+            },
+            "id": "rMtjtChf7L",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 128,
+                  "end": 175
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "Tpd7iReB-9",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 176,
+                  "end": 235
+                }
+              ],
+              "timelinelabels": [
+                "caminado atras"
+              ]
+            },
+            "id": "HwKtIRo98h",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 236,
+                  "end": 275
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "1UNxm1I23Q",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 275,
+                  "end": 278
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "W16T-EL3qI",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 278,
+                  "end": 308
+                }
+              ],
+              "timelinelabels": [
+                "sentandose"
+              ]
+            },
+            "id": "6C85f0sBJq",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 309,
+                  "end": 328
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "6SWdDdRX-A",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 329,
+                  "end": 352
+                }
+              ],
+              "timelinelabels": [
+                "parandose"
+              ]
+            },
+            "id": "hJjJIAItOP",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 353,
+                  "end": 362
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "gCSD1r_L7y",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-17T18:10:04.138458Z",
+        "updated_at": "2025-10-17T18:10:04.138471Z",
+        "draft_created_at": "2025-10-17T18:06:21.614986Z",
+        "lead_time": 250.916,
+        "prediction": {},
+        "result_count": 12,
+        "unique_id": "0d91dcc4-94c4-4831-8257-5f7469d96715",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 4,
+        "project": 1,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "8f72bc95-Video_4.mp4",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "video": "/data/upload/1/8f72bc95-Video_4.mp4"
+    },
+    "created_at": "2025-10-17T17:39:00.041814Z",
+    "updated_at": "2025-10-17T18:10:04.149905Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 5,
+    "annotations": [
+      {
+        "id": 5,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 28
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "hyetvmAkzr",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 29,
+                  "end": 54
+                }
+              ],
+              "timelinelabels": [
+                "parandose"
+              ]
+            },
+            "id": "XtTUzFTY9Q",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 55,
+                  "end": 116
+                }
+              ],
+              "timelinelabels": [
+                "caminando adelante"
+              ]
+            },
+            "id": "xupGChz4Gf",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 116,
+                  "end": 141
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "G23SbYymtB",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 142,
+                  "end": 178
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "_3Pe2P0Wzq",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 179,
+                  "end": 230
+                }
+              ],
+              "timelinelabels": [
+                "caminado atras"
+              ]
+            },
+            "id": "ETd5RkQNW3",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 231,
+                  "end": 262
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "yWzud2Dj0N",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 263,
+                  "end": 272
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "ZzIsZq31Ad",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 273,
+                  "end": 297
+                }
+              ],
+              "timelinelabels": [
+                "sentandose"
+              ]
+            },
+            "id": "xIqDMRUUle",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 297,
+                  "end": 323
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "a5v-mm4a7y",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 324,
+                  "end": 347
+                }
+              ],
+              "timelinelabels": [
+                "parandose"
+              ]
+            },
+            "id": "ULZCus0bvx",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 347,
+                  "end": 379
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "gvxkpEhTYe",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-17T18:14:44.805467Z",
+        "updated_at": "2025-10-17T18:14:44.805479Z",
+        "draft_created_at": "2025-10-17T18:10:56.056786Z",
+        "lead_time": 238.343,
+        "prediction": {},
+        "result_count": 12,
+        "unique_id": "8bcb6235-a644-407c-8441-fcc4eaff257d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 5,
+        "project": 1,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "b0b1df59-Video_5.mp4",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "video": "/data/upload/1/b0b1df59-Video_5.mp4"
+    },
+    "created_at": "2025-10-17T17:39:00.041833Z",
+    "updated_at": "2025-10-17T18:14:44.816192Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 6,
+    "annotations": [
+      {
+        "id": 6,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 24
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "scL0L5qJTa",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 24,
+                  "end": 45
+                }
+              ],
+              "timelinelabels": [
+                "parandose"
+              ]
+            },
+            "id": "UFuGZYsf3H",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 45,
+                  "end": 46
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "SpYW9PbQnu",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 46,
+                  "end": 112
+                }
+              ],
+              "timelinelabels": [
+                "caminando adelante"
+              ]
+            },
+            "id": "V3vsiZi9N3",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 113,
+                  "end": 146
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "yMb_QAuwAJ",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 147,
+                  "end": 199
+                }
+              ],
+              "timelinelabels": [
+                "caminado atras"
+              ]
+            },
+            "id": "IWIdb7LWG7",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 200,
+                  "end": 220
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "rQB2TgLrW0",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 221,
+                  "end": 240
+                }
+              ],
+              "timelinelabels": [
+                "sentandose"
+              ]
+            },
+            "id": "nOgYiUCESD",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 241,
+                  "end": 263
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "egLm2CCZVf",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 263,
+                  "end": 280
+                }
+              ],
+              "timelinelabels": [
+                "parandose"
+              ]
+            },
+            "id": "wN7mgjnl46",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 280,
+                  "end": 285
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "ryj_Gm7JwG",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 285,
+                  "end": 308
+                }
+              ],
+              "timelinelabels": [
+                "caminando adelante"
+              ]
+            },
+            "id": "HR1iJSt0TK",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-17T18:19:31.527656Z",
+        "updated_at": "2025-10-17T18:19:31.527668Z",
+        "draft_created_at": "2025-10-17T18:15:39.134675Z",
+        "lead_time": 249.361,
+        "prediction": {},
+        "result_count": 12,
+        "unique_id": "a02589d8-956f-4515-bbe4-800c50fa4b34",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 6,
+        "project": 1,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "e2472d48-Video_6.mp4",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "video": "/data/upload/1/e2472d48-Video_6.mp4"
+    },
+    "created_at": "2025-10-17T17:39:00.041852Z",
+    "updated_at": "2025-10-17T18:19:31.538139Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 7,
+    "annotations": [
+      {
+        "id": 7,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": -1,
+                  "end": 11
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "ZUqpUKk8hX",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 11,
+                  "end": 27
+                }
+              ],
+              "timelinelabels": [
+                "parandose"
+              ]
+            },
+            "id": "c7HXbZ673E",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 28,
+                  "end": 48
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "WjDJD5np_N",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 48,
+                  "end": 120
+                }
+              ],
+              "timelinelabels": [
+                "caminando adelante"
+              ]
+            },
+            "id": "UlDv175g58",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 120,
+                  "end": 145
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "H-l6fii02R",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 146,
+                  "end": 178
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "hgsplZQYYo",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 179,
+                  "end": 246
+                }
+              ],
+              "timelinelabels": [
+                "caminado atras"
+              ]
+            },
+            "id": "bIqPqlUXvr",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 246,
+                  "end": 277
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "4_IxqVk5LP",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 277,
+                  "end": 282
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "FpXxTyTsTe",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 283,
+                  "end": 307
+                }
+              ],
+              "timelinelabels": [
+                "sentandose"
+              ]
+            },
+            "id": "zFw9YpoION",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 307,
+                  "end": 327
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "pcQM6vEq9d",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 328,
+                  "end": 352
+                }
+              ],
+              "timelinelabels": [
+                "parandose"
+              ]
+            },
+            "id": "zYdsv8xJ47",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 352,
+                  "end": 374
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "UvIG5QBGuw",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-17T18:22:54.505917Z",
+        "updated_at": "2025-10-17T18:22:54.505930Z",
+        "draft_created_at": "2025-10-17T18:20:30.284451Z",
+        "lead_time": 174.913,
+        "prediction": {},
+        "result_count": 13,
+        "unique_id": "5f9bf666-a212-41a4-a7af-6fad54fde757",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 7,
+        "project": 1,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "c7eeb69b-Video_7.mp4",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "video": "/data/upload/1/c7eeb69b-Video_7.mp4"
+    },
+    "created_at": "2025-10-17T17:39:00.041873Z",
+    "updated_at": "2025-10-17T18:22:54.516968Z",
+    "inner_id": 7,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 8,
+    "annotations": [
+      {
+        "id": 8,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 16
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "TBw7ZTeXG0",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 16,
+                  "end": 34
+                }
+              ],
+              "timelinelabels": [
+                "parandose"
+              ]
+            },
+            "id": "_tPCroY76p",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 34,
+                  "end": 36
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "bQD8_s-Kas",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 36,
+                  "end": 96
+                }
+              ],
+              "timelinelabels": [
+                "caminando adelante"
+              ]
+            },
+            "id": "Jt_trRBa3Z",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 96,
+                  "end": 107
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "44le-lxCN5",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 107,
+                  "end": 141
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "xT2aob14iG",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 141,
+                  "end": 197
+                }
+              ],
+              "timelinelabels": [
+                "caminado atras"
+              ]
+            },
+            "id": "84LGGYvK8l",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 198,
+                  "end": 222
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "LjrcdqRNpR",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 222,
+                  "end": 250
+                }
+              ],
+              "timelinelabels": [
+                "sentandose"
+              ]
+            },
+            "id": "9ML7l-4QoM",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 251,
+                  "end": 263
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "fqExXZ1lfE",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 264,
+                  "end": 291
+                }
+              ],
+              "timelinelabels": [
+                "parandose"
+              ]
+            },
+            "id": "onPHptPfJQ",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 291,
+                  "end": 299
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "VnzQ75LYF3",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-17T18:26:12.659764Z",
+        "updated_at": "2025-10-17T18:26:12.659775Z",
+        "draft_created_at": "2025-10-17T18:23:30.720468Z",
+        "lead_time": 184.949,
+        "prediction": {},
+        "result_count": 12,
+        "unique_id": "e66cf657-93b8-49a3-8a02-6e60abb124be",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 8,
+        "project": 1,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "1bc5d156-Video_8.mp4",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "video": "/data/upload/1/1bc5d156-Video_8.mp4"
+    },
+    "created_at": "2025-10-17T17:39:00.041893Z",
+    "updated_at": "2025-10-17T18:26:12.670359Z",
+    "inner_id": 8,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 9,
+    "annotations": [
+      {
+        "id": 9,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": -2,
+                  "end": 1
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "0q40KLSdI2",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 2,
+                  "end": 29
+                }
+              ],
+              "timelinelabels": [
+                "parandose"
+              ]
+            },
+            "id": "WO6sDSfwmv",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 29,
+                  "end": 99
+                }
+              ],
+              "timelinelabels": [
+                "caminando adelante"
+              ]
+            },
+            "id": "XyjRW-jwEr",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 99,
+                  "end": 140
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "eWBySMzfED",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 140,
+                  "end": 194
+                }
+              ],
+              "timelinelabels": [
+                "caminado atras"
+              ]
+            },
+            "id": "7BV7IOFXyQ",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 194,
+                  "end": 217
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "LVllAqcf19",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 217,
+                  "end": 222
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "PUAn1PXzLr",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 222,
+                  "end": 261
+                }
+              ],
+              "timelinelabels": [
+                "sentandose"
+              ]
+            },
+            "id": "q4NTuEsBrB",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 261,
+                  "end": 282
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "Q24hRRURTW",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 282,
+                  "end": 314
+                }
+              ],
+              "timelinelabels": [
+                "parandose"
+              ]
+            },
+            "id": "hqFrhy9cUU",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 314,
+                  "end": 340
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "XrmH7B18R3",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-17T18:42:23.157490Z",
+        "updated_at": "2025-10-17T18:42:23.157502Z",
+        "draft_created_at": "2025-10-17T18:27:32.368041Z",
+        "lead_time": 871.435,
+        "prediction": {},
+        "result_count": 11,
+        "unique_id": "d69b4e47-d043-447b-921c-34548a1411ac",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 9,
+        "project": 1,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "f7511910-Video_9.mp4",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "video": "/data/upload/1/f7511910-Video_9.mp4"
+    },
+    "created_at": "2025-10-17T17:39:00.041912Z",
+    "updated_at": "2025-10-17T18:42:23.167974Z",
+    "inner_id": 9,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 10,
+    "annotations": [
+      {
+        "id": 10,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 3
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "nAZtoEjIZY",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 3,
+                  "end": 26
+                }
+              ],
+              "timelinelabels": [
+                "parandose"
+              ]
+            },
+            "id": "0FhULfO4mj",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 26,
+                  "end": 94
+                }
+              ],
+              "timelinelabels": [
+                "caminando adelante"
+              ]
+            },
+            "id": "LPCFfNIDZ1",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 94,
+                  "end": 98
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "b7hxtwqFU0",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 98,
+                  "end": 133
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "sNiwGE9hwc",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 133,
+                  "end": 187
+                }
+              ],
+              "timelinelabels": [
+                "caminado atras"
+              ]
+            },
+            "id": "KN4wpkATy_",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 187,
+                  "end": 213
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "ytxG5qbxtD",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 213,
+                  "end": 217
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "1Y4NAt7l6r",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 217,
+                  "end": 241
+                }
+              ],
+              "timelinelabels": [
+                "sentandose"
+              ]
+            },
+            "id": "-W4fSPVxhQ",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 241,
+                  "end": 263
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "GnENUnEQbY",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 263,
+                  "end": 288
+                }
+              ],
+              "timelinelabels": [
+                "parandose"
+              ]
+            },
+            "id": "2uhODfRu4r",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 288,
+                  "end": 298
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "okPuVtS6WH",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 298,
+                  "end": 314
+                }
+              ],
+              "timelinelabels": [
+                "caminando adelante"
+              ]
+            },
+            "id": "ZLuu2woOy0",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-17T18:50:47.586888Z",
+        "updated_at": "2025-10-17T18:50:47.586897Z",
+        "draft_created_at": "2025-10-17T18:43:29.035920Z",
+        "lead_time": 482.996,
+        "prediction": {},
+        "result_count": 13,
+        "unique_id": "c009cee5-6f8b-4e12-82c4-883f7020d2a8",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 10,
+        "project": 1,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "cff05c41-Video_10.mp4",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "video": "/data/upload/1/cff05c41-Video_10.mp4"
+    },
+    "created_at": "2025-10-17T17:39:00.041931Z",
+    "updated_at": "2025-10-17T18:50:47.596061Z",
+    "inner_id": 10,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 11,
+    "annotations": [
+      {
+        "id": 11,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 18
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "Cg4dbRQK70",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 18,
+                  "end": 56
+                }
+              ],
+              "timelinelabels": [
+                "parandose"
+              ]
+            },
+            "id": "bFleb9Ordk",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 56,
+                  "end": 70
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "0ZwhZ_GyCK",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 70,
+                  "end": 149
+                }
+              ],
+              "timelinelabels": [
+                "caminando adelante"
+              ]
+            },
+            "id": "LlZ42TTfoI",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 149,
+                  "end": 178
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "BrmDt7FHZ0",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 178,
+                  "end": 227
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "VehMxRWsB8",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 227,
+                  "end": 231
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "obiTTWBsnK",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 231,
+                  "end": 298
+                }
+              ],
+              "timelinelabels": [
+                "caminado atras"
+              ]
+            },
+            "id": "ZifTPWL1NE",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 298,
+                  "end": 335
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "ET9mfW605E",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 335,
+                  "end": 338
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "EHbefp12yN",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 338,
+                  "end": 378
+                }
+              ],
+              "timelinelabels": [
+                "sentandose"
+              ]
+            },
+            "id": "OB23KE6Dg8",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 378,
+                  "end": 393
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "g4Ivc9eGuK",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 393,
+                  "end": 421
+                }
+              ],
+              "timelinelabels": [
+                "parandose"
+              ]
+            },
+            "id": "pzvkB2D0RX",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 421,
+                  "end": 442
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "_g5rwKZC9O",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-17T18:56:42.176627Z",
+        "updated_at": "2025-10-17T18:56:42.176641Z",
+        "draft_created_at": "2025-10-17T18:51:32.422130Z",
+        "lead_time": 320.45,
+        "prediction": {},
+        "result_count": 14,
+        "unique_id": "30d0daea-4f40-48c9-a35a-2d07aa9f1abb",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 11,
+        "project": 1,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "e68f5308-Video_11.mp4",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "video": "/data/upload/1/e68f5308-Video_11.mp4"
+    },
+    "created_at": "2025-10-17T17:39:00.041950Z",
+    "updated_at": "2025-10-17T18:56:42.187434Z",
+    "inner_id": 11,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 12,
+    "annotations": [
+      {
+        "id": 1,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 15
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "Qbhg5Eole3",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 15,
+                  "end": 71
+                }
+              ],
+              "timelinelabels": [
+                "parandose"
+              ]
+            },
+            "id": "-DCn4gT4Zf",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 71,
+                  "end": 82
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "TUUQXxC_aF",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 82,
+                  "end": 174
+                }
+              ],
+              "timelinelabels": [
+                "caminando adelante"
+              ]
+            },
+            "id": "CY-8KjwXEu",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 174,
+                  "end": 207
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "3503xPcq5H",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 207,
+                  "end": 260
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "63GV9QJb6d",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 260,
+                  "end": 332
+                }
+              ],
+              "timelinelabels": [
+                "caminado atras"
+              ]
+            },
+            "id": "I1qPW3dBgT",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 332,
+                  "end": 339
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "OdfxstPhc8",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 339,
+                  "end": 389
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "Ey8kwXuXNn",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 389,
+                  "end": 394
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "GiifcwWWSC",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 394,
+                  "end": 447
+                }
+              ],
+              "timelinelabels": [
+                "sentandose"
+              ]
+            },
+            "id": "hU17v1Xbzl",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 447,
+                  "end": 490
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "QKdKq6zKt2",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 490,
+                  "end": 535
+                }
+              ],
+              "timelinelabels": [
+                "parandose"
+              ]
+            },
+            "id": "TbzF6qJ6DG",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 535,
+                  "end": 548
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "r4I8tCVgcQ",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-17T20:56:16.274323Z",
+        "updated_at": "2025-10-17T20:56:16.274323Z",
+        "draft_created_at": "2025-10-17T20:47:04.103586Z",
+        "lead_time": 573.294,
+        "prediction": {},
+        "result_count": 14,
+        "unique_id": "6bee6a9c-60b8-4ae5-a429-0333d4ae73dc",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1,
+        "project": 1,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "5bb7813e-Video_12.mp4",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "video": "/data/upload/1/5bb7813e-Video_12.mp4"
+    },
+    "created_at": "2025-10-17T20:36:33.824167Z",
+    "updated_at": "2025-10-17T20:56:16.328913Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 13,
+    "annotations": [
+      {
+        "id": 2,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 7
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "VdNdQydemS",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 7,
+                  "end": 29
+                }
+              ],
+              "timelinelabels": [
+                "parandose"
+              ]
+            },
+            "id": "Rp_oEULmVh",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 29,
+                  "end": 90
+                }
+              ],
+              "timelinelabels": [
+                "caminando adelante"
+              ]
+            },
+            "id": "gF1oYgB4Sv",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 90,
+                  "end": 112
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "PLV9nqYCMR",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 112,
+                  "end": 140
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "BVP1wl-Mg8",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 140,
+                  "end": 204
+                }
+              ],
+              "timelinelabels": [
+                "caminado atras"
+              ]
+            },
+            "id": "4zgjfGjU_Q",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 204,
+                  "end": 229
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "MCKyeNczEx",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 229,
+                  "end": 236
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "PJv2QMsm4s",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 236,
+                  "end": 258
+                }
+              ],
+              "timelinelabels": [
+                "sentandose"
+              ]
+            },
+            "id": "ZgnNz3mEi_",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 258,
+                  "end": 278
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "CtzCt9XkIf",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 278,
+                  "end": 296
+                }
+              ],
+              "timelinelabels": [
+                "parandose"
+              ]
+            },
+            "id": "HCZKpoRufv",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 296,
+                  "end": 310
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "m4orJ4KRen",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 310,
+                  "end": 316
+                }
+              ],
+              "timelinelabels": [
+                "caminando adelante"
+              ]
+            },
+            "id": "z93jmxrGCT",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-17T21:10:53.286278Z",
+        "updated_at": "2025-10-17T21:10:53.286278Z",
+        "draft_created_at": "2025-10-17T21:03:34.057706Z",
+        "lead_time": 873.772,
+        "prediction": {},
+        "result_count": 13,
+        "unique_id": "66d38e2e-824a-47b0-8129-484b47bce4d1",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2,
+        "project": 1,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "0e0a895f-Video_13.mp4",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "video": "/data/upload/1/0e0a895f-Video_13.mp4"
+    },
+    "created_at": "2025-10-17T20:36:33.824167Z",
+    "updated_at": "2025-10-17T21:10:53.336414Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 14,
+    "annotations": [
+      {
+        "id": 3,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 44
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "DPrRHhYsuL",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 44,
+                  "end": 69
+                }
+              ],
+              "timelinelabels": [
+                "parandose"
+              ]
+            },
+            "id": "bwlXIf2cP3",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 69,
+                  "end": 74
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "Zh5uCnUoe7",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 74,
+                  "end": 138
+                }
+              ],
+              "timelinelabels": [
+                "caminando adelante"
+              ]
+            },
+            "id": "VCDI2yJstm",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 138,
+                  "end": 162
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "HrWaUZR7n9",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 162,
+                  "end": 180
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "Wi713k1G9E",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 180,
+                  "end": 241
+                }
+              ],
+              "timelinelabels": [
+                "caminado atras"
+              ]
+            },
+            "id": "LSjpHXHEOl",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 241,
+                  "end": 257
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "fA77nk54J6",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 257,
+                  "end": 277
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "TmlyxtuuVu",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 277,
+                  "end": 309
+                }
+              ],
+              "timelinelabels": [
+                "sentandose"
+              ]
+            },
+            "id": "M-kasp6w1T",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 309,
+                  "end": 331
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "vygtpAWueP",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 331,
+                  "end": 356
+                }
+              ],
+              "timelinelabels": [
+                "parandose"
+              ]
+            },
+            "id": "y5KXpjJ_mw",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 356,
+                  "end": 364
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "YtEF3QSvDC",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-17T21:17:51.997612Z",
+        "updated_at": "2025-10-17T21:17:51.997612Z",
+        "draft_created_at": "2025-10-17T21:12:30.544247Z",
+        "lead_time": 416.054,
+        "prediction": {},
+        "result_count": 13,
+        "unique_id": "73af137e-d264-4833-b4b6-834ab841f89d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 3,
+        "project": 1,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "eea7c96c-Video_14.mp4",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "video": "/data/upload/1/eea7c96c-Video_14.mp4"
+    },
+    "created_at": "2025-10-17T20:36:33.824167Z",
+    "updated_at": "2025-10-17T21:17:52.046596Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 15,
+    "annotations": [
+      {
+        "id": 4,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 47
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "PFLpnkaLUV",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 47,
+                  "end": 65
+                }
+              ],
+              "timelinelabels": [
+                "parandose"
+              ]
+            },
+            "id": "_TA47nUZlu",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 65,
+                  "end": 136
+                }
+              ],
+              "timelinelabels": [
+                "caminando adelante"
+              ]
+            },
+            "id": "Kzbst963F7",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 136,
+                  "end": 138
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "8GSLTti_hP",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 138,
+                  "end": 173
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "Og4MLxN6DR",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 173,
+                  "end": 224
+                }
+              ],
+              "timelinelabels": [
+                "caminado atras"
+              ]
+            },
+            "id": "ss0EZpM9Hx",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 224,
+                  "end": 252
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "Uea1A5f_vN",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 252,
+                  "end": 282
+                }
+              ],
+              "timelinelabels": [
+                "sentandose"
+              ]
+            },
+            "id": "lvG4RB5Owc",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 282,
+                  "end": 332
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "Fi0ad6cJdk",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 332,
+                  "end": 349
+                }
+              ],
+              "timelinelabels": [
+                "parandose"
+              ]
+            },
+            "id": "fiHykdZxr1",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 349,
+                  "end": 361
+                }
+              ],
+              "timelinelabels": [
+                "caminando adelante"
+              ]
+            },
+            "id": "UmaqYafHgS",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-17T21:29:24.306991Z",
+        "updated_at": "2025-10-17T21:29:24.306991Z",
+        "draft_created_at": "2025-10-17T21:21:41.972244Z",
+        "lead_time": 689.389,
+        "prediction": {},
+        "result_count": 11,
+        "unique_id": "8a4ab0ed-c514-493f-8646-004c132c6b96",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 4,
+        "project": 1,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "3ba66ec1-Video_15.mp4",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "video": "/data/upload/1/3ba66ec1-Video_15.mp4"
+    },
+    "created_at": "2025-10-17T20:36:33.824167Z",
+    "updated_at": "2025-10-17T21:29:24.353752Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 16,
+    "annotations": [
+      {
+        "id": 5,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 34
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "KyWNTIJAFM",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 34,
+                  "end": 65
+                }
+              ],
+              "timelinelabels": [
+                "parandose"
+              ]
+            },
+            "id": "CjF04XpX8p",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 65,
+                  "end": 74
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "TvoX7pEJ3c",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 74,
+                  "end": 187
+                }
+              ],
+              "timelinelabels": [
+                "caminando adelante"
+              ]
+            },
+            "id": "jPRVDweKNb",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 187,
+                  "end": 212
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "-fbxBqW8om",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 212,
+                  "end": 266
+                }
+              ],
+              "timelinelabels": [
+                "caminado atras"
+              ]
+            },
+            "id": "IF9Bexlqlj",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 266,
+                  "end": 291
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "SqKv96ZdC-",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 291,
+                  "end": 296
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "_FjFKhkrji",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 296,
+                  "end": 323
+                }
+              ],
+              "timelinelabels": [
+                "sentandose"
+              ]
+            },
+            "id": "_u0mgS4VOX",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 323,
+                  "end": 365
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "W268GxO66Q",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 365,
+                  "end": 377
+                }
+              ],
+              "timelinelabels": [
+                "parandose"
+              ]
+            },
+            "id": "2ACJF0LygA",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 377,
+                  "end": 416
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "tkwnE_i8Fe",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-17T22:13:24.665815Z",
+        "updated_at": "2025-10-17T22:13:24.665815Z",
+        "draft_created_at": "2025-10-17T22:09:15.293633Z",
+        "lead_time": 2638.395,
+        "prediction": {},
+        "result_count": 12,
+        "unique_id": "96d47d49-24b0-4714-8255-afb7a71941a9",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 5,
+        "project": 1,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "9ba36b92-Video_16.mp4",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "video": "/data/upload/1/9ba36b92-Video_16.mp4"
+    },
+    "created_at": "2025-10-17T20:36:33.824167Z",
+    "updated_at": "2025-10-17T22:13:24.716857Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 17,
+    "annotations": [
+      {
+        "id": 6,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 73
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "1WvytIHQ5d",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 73,
+                  "end": 84
+                }
+              ],
+              "timelinelabels": [
+                "parandose"
+              ]
+            },
+            "id": "nOwrmJUtBS",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 84,
+                  "end": 158
+                }
+              ],
+              "timelinelabels": [
+                "caminando adelante"
+              ]
+            },
+            "id": "9ehCkp98pa",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 158,
+                  "end": 160
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "wWbeyuWEWL",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 160,
+                  "end": 185
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "4gu3J_CouK",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 185,
+                  "end": 240
+                }
+              ],
+              "timelinelabels": [
+                "caminado atras"
+              ]
+            },
+            "id": "fa30xWqewI",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 240,
+                  "end": 269
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "8R4Z3Fh_xI",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 269,
+                  "end": 272
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "ORXGk6bwS0",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 272,
+                  "end": 291
+                }
+              ],
+              "timelinelabels": [
+                "sentandose"
+              ]
+            },
+            "id": "MTVlizW_UQ",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 291,
+                  "end": 329
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "9v834rid2A",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 329,
+                  "end": 336
+                }
+              ],
+              "timelinelabels": [
+                "parandose"
+              ]
+            },
+            "id": "h7b598L1kX",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 336,
+                  "end": 362
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "0HNSNOfIHH",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-17T22:18:17.376618Z",
+        "updated_at": "2025-10-17T22:18:17.376618Z",
+        "draft_created_at": "2025-10-17T22:13:36.881312Z",
+        "lead_time": 290.403,
+        "prediction": {},
+        "result_count": 12,
+        "unique_id": "d58a2fcd-0b0a-432a-bcc2-7b5149c1e5ef",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 6,
+        "project": 1,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "cabe3afc-Video_17.mp4",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "video": "/data/upload/1/cabe3afc-Video_17.mp4"
+    },
+    "created_at": "2025-10-17T20:36:33.824167Z",
+    "updated_at": "2025-10-17T22:18:17.425175Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 18,
+    "annotations": [
+      {
+        "id": 7,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 41
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "GxPCk0SfZp",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 41,
+                  "end": 58
+                }
+              ],
+              "timelinelabels": [
+                "parandose"
+              ]
+            },
+            "id": "30dZ4u_AZT",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 58,
+                  "end": 131
+                }
+              ],
+              "timelinelabels": [
+                "caminando adelante"
+              ]
+            },
+            "id": "zarOzMAGQb",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 131,
+                  "end": 135
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "aUDTgzDexL",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 135,
+                  "end": 159
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "o_kmC4oPvh",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 159,
+                  "end": 216
+                }
+              ],
+              "timelinelabels": [
+                "caminado atras"
+              ]
+            },
+            "id": "7UGN2BlT_r",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 216,
+                  "end": 246
+                }
+              ],
+              "timelinelabels": [
+                "girando"
+              ]
+            },
+            "id": "0Y_QOrVU8S",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 246,
+                  "end": 253
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "OT9rdJFi0G",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 253,
+                  "end": 265
+                }
+              ],
+              "timelinelabels": [
+                "sentandose"
+              ]
+            },
+            "id": "V2SJl_w82X",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 265,
+                  "end": 291
+                }
+              ],
+              "timelinelabels": [
+                "sentado"
+              ]
+            },
+            "id": "ggHyt9_oLI",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 291,
+                  "end": 305
+                }
+              ],
+              "timelinelabels": [
+                "parandose"
+              ]
+            },
+            "id": "4PxydGW2kb",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "ranges": [
+                {
+                  "start": 305,
+                  "end": 325
+                }
+              ],
+              "timelinelabels": [
+                "parado"
+              ]
+            },
+            "id": "GUGantz6qG",
+            "from_name": "videoLabels",
+            "to_name": "video",
+            "type": "timelinelabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-17T22:21:35.627092Z",
+        "updated_at": "2025-10-17T22:21:35.627092Z",
+        "draft_created_at": "2025-10-17T22:18:32.083181Z",
+        "lead_time": 195.462,
+        "prediction": {},
+        "result_count": 12,
+        "unique_id": "7923c07a-fb3c-49b8-9eda-b4d877e0d6e0",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 7,
+        "project": 1,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "328c0f1f-Video_18.mp4",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "video": "/data/upload/1/328c0f1f-Video_18.mp4"
+    },
+    "created_at": "2025-10-17T20:36:33.824167Z",
+    "updated_at": "2025-10-17T22:21:35.677622Z",
+    "inner_id": 7,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]
