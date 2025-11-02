@@ -187,6 +187,36 @@ Esto permitirá su uso posterior en una aplicación de detección de actividad h
 
 ## 4. Plan de despliegue
 
+
+## 4. Plan de Despliegue
+
+El despliegue del modelo se plantea en un entorno local o de laboratorio con una **cámara en tiempo real** y el uso de **MediaPipe Pose** como extractor de características corporales.
+
+El flujo de inferencia se estructura de la siguiente manera:
+
+1. **Captura de video en tiempo real:**
+   Se accede a la cámara mediante OpenCV (`cv2.VideoCapture(0)`).
+
+2. **Extracción de landmarks:**
+   MediaPipe Pose detecta los puntos clave del cuerpo (caderas, rodillas, hombros, etc.) y genera sus coordenadas por cuadro.
+
+3. **Cálculo de características:**
+   A partir de las coordenadas se calculan las mismas métricas usadas en el entrenamiento (ángulo de rodilla, inclinación de tronco, distancia hombro–cadera, etc.).
+
+4. **Inferencia del modelo:**
+   El modelo previamente entrenado y almacenado (`random_forest_model.joblib`) se carga con Joblib y predice en tiempo real la etiqueta de actividad actual.
+
+   ```python
+   model = joblib.load('random_forest_model.joblib')
+   pred = model.predict([feature_vector])
+   ```
+
+5. **Visualización en vivo:**
+   La etiqueta predicha se superpone sobre el video en tiempo real, permitiendo observar la acción identificada.
+
+Este esquema permitirá el funcionamiento autónomo del sistema de **reconocimiento de actividades humanas** en tiempo real, manteniendo coherencia con el conjunto de datos y características utilizadas durante el entrenamiento.
+
+
 ---
 
 ## 5. Análisis inicial de los impactos de la solución
