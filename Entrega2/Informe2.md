@@ -220,3 +220,13 @@ Este esquema permitirá el funcionamiento autónomo del sistema de **reconocimie
 ---
 
 ## 5. Análisis inicial de los impactos de la solución
+
+El desarrollo del sistema de clasificación de actividades motoras en tiempo real tiene implicaciones relevantes tanto en el ámbito tecnológico como en el social y ético.
+
+En primer lugar, desde el punto de vista tecnológico y aplicado, la solución demuestra la viabilidad de un sistema no invasivo capaz de identificar posturas y movimientos humanos utilizando únicamente una cámara convencional y técnicas de visión por computador (MediaPipe) combinadas con aprendizaje automático (Random Forest). Este enfoque podría ser la base para futuras aplicaciones en el monitoreo de la movilidad, la rehabilitación física o el seguimiento de pacientes con trastornos neuromotores (por ejemplo, Parkinson o lesiones músculo-esqueléticas).
+
+En términos de impacto social, el sistema puede contribuir al desarrollo de herramientas de evaluación accesibles, de bajo costo y de fácil implementación en contextos educativos, clínicos o de investigación, promoviendo una mayor autonomía en el análisis de patrones de movimiento y reduciendo la necesidad de equipamiento especializado.
+
+Sin embargo, también se identifican consideraciones éticas y limitaciones. El manejo de datos personales en forma de video implica riesgos de privacidad; por ello, se adoptó la práctica de no almacenar los videos originales, conservando únicamente las coordenadas procesadas de las articulaciones. Además, es importante mitigar posibles sesgos asociados a condiciones de iluminación, vestimenta o morfología corporal, que podrían afectar la precisión del sistema.
+
+En conclusión, el prototipo desarrollado representa un avance significativo hacia la creación de sistemas de analítica motora accesibles, éticamente responsables y técnicamente viables, con potencial de expansión hacia escenarios clínicos y de investigación en futuras fases del proyecto.
