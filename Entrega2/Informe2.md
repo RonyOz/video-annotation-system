@@ -142,13 +142,8 @@ Este comportamiento indica un leve sobreajuste, que será abordado en la siguien
 
 ---
 
-### 3.4. Ajuste de hiperparámetros (Grid Search)
 
-**[Completar: descripción del proceso de búsqueda de hiperparámetros, rango de valores evaluados, métricas de validación y selección del mejor modelo.]**
-
----
-
-### 3.5. Resultados de evaluación
+### 3.4. Resultados iniciales 
 
 A continuación se presentan los resultados del modelo sobre el conjunto de prueba:
 
@@ -165,9 +160,90 @@ A continuación se presentan los resultados del modelo sobre el conjunto de prue
 | **Promedio macro**     | **0.85**  | **0.73** | **0.74** | **108** |
 | **Promedio ponderado** | **0.82**  | **0.80** | **0.78** | **108** |
 
+
+![alt text](image.png)
 La **matriz de confusión** mostró una correcta separación entre actividades dinámicas (*caminar adelante/atrás, girar*), mientras que las posturas estáticas (*sentado, parado*) presentaron mayor confusión entre sí, debido a su similitud postural y menor variabilidad angular.
 
-En términos generales, el desempeño del modelo es satisfactorio para tareas de reconocimiento de acciones básicas, constituyendo una base sólida para la **implementación de un sistema de inferencia en tiempo real**.
+![alt text](image-1.png)
+
+El análisis de importancia de variables revela que las características más relevantes para la clasificación son:
+
+Distancia hombro–cadera promedio ```(dist_sh_hip_mean)```,
+
+Inclinación del tronco promedio ```(trunk_incl_mean)```,
+
+y la variabilidad en la distancia hombro–cadera ```(dist_sh_hip_std)```.
+
+Estas variables reflejan relaciones biomecánicas claves, ya que capturan tanto la postura corporal global como los cambios de orientación del torso y desplazamiento, factores determinantes para diferenciar entre actividades de movimiento y posturas estáticas.
+
+En términos generales, el desempeño del modelo es sólido para el reconocimiento de acciones básicas, y las variables más influyentes coinciden con los parámetros esperados desde el punto de vista cinemático. Esto valida el enfoque adoptado y establece una base adecuada para la implementación del sistema de inferencia en tiempo real en la siguiente fase del proyecto.
+
+
+---
+
+### 3.5. Ajuste de hiperparámetros (Grid Search)
+
+Con el fin de mejorar el desempeño del modelo base de **Random Forest**, se implementó un proceso de búsqueda exhaustiva de hiperparámetros mediante **Grid Search** utilizando validación cruzada estratificada. El objetivo fue identificar la combinación de parámetros que maximizara la métrica **F1-Score macro**, priorizando el equilibrio entre clases en un escenario multiclase.
+
+#### Rango de parámetros evaluados
+
+| Parámetro           | Valores evaluados |
+| ------------------- | ----------------- |
+| `n_estimators`      | [100, 200, 400]   |
+| `max_depth`         | [None, 10, 20]    |
+| `max_features`      | ['sqrt', 'log2']  |
+| `min_samples_split` | [2, 4, 6]         |
+| `min_samples_leaf`  | [1, 2, 3]         |
+| `bootstrap`         | [True, False]     |
+
+El proceso se realizó sobre el conjunto de entrenamiento con validación cruzada de 5 pliegues (`cv=5`), empleando como métrica principal el **macro F1-score**, lo que permitió evaluar de manera equilibrada el rendimiento del modelo en cada clase, independientemente del número de muestras por categoría.
+
+#### Mejores hiperparámetros encontrados
+
+```python
+{
+  'bootstrap': True,
+  'max_depth': None,
+  'max_features': 'sqrt',
+  'min_samples_leaf': 1,
+  'min_samples_split': 2,
+  'n_estimators': 400
+}
+```
+
+Estos valores indican que el modelo final utiliza un conjunto más amplio de árboles (400 estimadores), manteniendo una profundidad sin restricción (`max_depth=None`) y un muestreo aleatorio de características en cada división (`max_features='sqrt'`), lo cual favorece la diversidad de los árboles y mejora la capacidad de generalización.
+
+#### Resultados del modelo optimizado
+
+El modelo ajustado alcanzó una **precisión global (accuracy) del 81.5%**, con mejoras visibles en las clases de movimiento dinámico y una ligera reducción del sobreajuste observado en el modelo base.
+
+| Clase                  | Precisión | Recall   | F1-Score  | Soporte |
+| ---------------------- | --------- | -------- | --------- | ------- |
+| Caminando atrás        | 0.94      | 1.00     | 0.97      | 16      |
+| Caminando adelante     | 0.72      | 1.00     | 0.84      | 26      |
+| Girando                | 0.83      | 0.91     | 0.87      | 22      |
+| Parado                 | 1.00      | 0.22     | 0.36      | 9       |
+| Parándose              | 0.80      | 0.57     | 0.67      | 14      |
+| Sentado                | 0.77      | 0.91     | 0.83      | 11      |
+| Sentándose             | 1.00      | 0.60     | 0.75      | 10      |
+| **Accuracy global**    | —         | —        | **0.815** | **108** |
+| **Promedio macro**     | **0.87**  | **0.74** | **0.76**  | **108** |
+| **Promedio ponderado** | **0.84**  | **0.81** | **0.79**  | **108** |
+
+#### Matriz de confusión del modelo optimizado
+
+![alt text](image-2.png)
+
+
+La matriz de confusión muestra que el modelo optimizado con los hiperparámetros seleccionados mantiene una **clasificación muy precisa para las actividades dinámicas**, especialmente *caminando adelante* y *caminando atrás*, donde no se observan errores de predicción.
+
+También se observa una **mejor discriminación en la clase *girando*** (20 de 22 instancias correctamente clasificadas), y un incremento en la detección de las clases *sentado* y *parándose* frente al modelo base.
+
+Las principales confusiones se concentran en las posturas **estáticas o de transición** (*parado*, *parándose*, *sentándose*), donde las diferencias cinemáticas son más sutiles.
+
+En conjunto, la matriz confirma que el ajuste de hiperparámetros **redujo los falsos positivos en las actividades dinámicas** y **mejoró la estabilidad del clasificador**, validando la selección del modelo Random Forest optimizado como base del sistema de reconocimiento de acciones en tiempo real.
+
+
 
 ---
 
