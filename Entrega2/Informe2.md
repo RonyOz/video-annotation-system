@@ -188,8 +188,6 @@ Esto permitirá su uso posterior en una aplicación de detección de actividad h
 ## 4. Plan de despliegue
 
 
-## 4. Plan de Despliegue
-
 El despliegue del modelo se plantea en un entorno local o de laboratorio con una **cámara en tiempo real** y el uso de **MediaPipe Pose** como extractor de características corporales.
 
 El flujo de inferencia se estructura de la siguiente manera:
